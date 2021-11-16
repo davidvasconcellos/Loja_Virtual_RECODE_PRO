@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.primary-color {
+  color: aliceblue;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+.bg-primary-color {
+  background: #e5e5e5;
+}
+.bg-secondary-color {
+  background: rgba(157, 151, 151, 0.2);
+}
+
+#carouselExampleIndicators {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.card {
+  /* border: 0.5px solid black; */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+.card:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.8) ;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#navbar {
+  font-size: 32px;
+  border-radius: 4px;
+}
+
+.bg-d {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#logo {
+  max-height: 7rem;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    max-height: 2rem;
+  }
+}
+.card-text{
+  text-align: justify;
+}
+
+.preco{
+  font-size: 1.375rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.25rem;
+}
+.preco s{
+  color: red;
+}

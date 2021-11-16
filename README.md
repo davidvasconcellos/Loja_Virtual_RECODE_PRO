@@ -1,0 +1,1 @@
+# Projeto para a criação de uma loja virtual simples para o programa de capacitação de programadores Full Stack da RECODE 2021
